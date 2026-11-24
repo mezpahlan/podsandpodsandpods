@@ -1,0 +1,23 @@
+platform: android
+type: application
+
+android:
+  namespace: "uk.co.mezpahlan.pods"
+  compileSdk:
+    version:
+      release:
+        apiLevel: 37
+  minSdk:
+    version:
+      release:
+        apiLevel: 24
+  targetSdk:
+    version:
+      release:
+        apiLevel: 37
+  applicationId: "uk.co.mezpahlan.pods"
+  versionCode: 1
+  versionName: "1.0"
+  dependencies:
+    module:
+      - //app-core

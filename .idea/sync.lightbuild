@@ -1,0 +1,3631 @@
+{
+    "modules": [
+        {
+            "type": "holderModule",
+            "name": "Pods And Pods And Pods And Pods",
+            "root": "/home/mary/Development/pods",
+            "childModuleNames": []
+        },
+        {
+            "type": "holderModule",
+            "name": "app",
+            "root": "/home/mary/Development/pods/app",
+            "childModuleNames": [
+                "app.main"
+            ]
+        },
+        {
+            "type": "holderModule",
+            "name": "app-core",
+            "root": "/home/mary/Development/pods/app-core",
+            "childModuleNames": [
+                "app-core.androidTest",
+                "app-core.main",
+                "app-core.test",
+                "app-core.testFixtures"
+            ]
+        },
+        {
+            "type": "sourceSetModule",
+            "name": "app-core.androidTest",
+            "root": "/home/mary/Development/pods/app-core",
+            "platformInfo": {
+                "type": "androidDeviceTestInfo",
+                "name": "androidTest",
+                "testApplicationId": "uk.co.mezpahlan.pods.core.test",
+                "sources": {
+                    "name": "androidTest",
+                    "classesDirs": [],
+                    "sdkTargetHashString": "android-37.0",
+                    "folder": "/home/mary/Development/pods/app-core/src/androidTest",
+                    "manifestFile": "/home/mary/Development/pods/app-core/src/androidTest/AndroidManifest.xml",
+                    "javaDirectories": "/home/mary/Development/pods/app-core/src/androidTest/java",
+                    "kotlinDirectories": "/home/mary/Development/pods/app-core/src/androidTest/kotlin",
+                    "resourcesDirectories": "/home/mary/Development/pods/app-core/src/androidTest/resources",
+                    "resDirectories": "/home/mary/Development/pods/app-core/src/androidTest/res",
+                    "assetsDirectories": "/home/mary/Development/pods/app-core/src/androidTest/assets",
+                    "jniLibsDirectories": "/home/mary/Development/pods/app-core/src/androidTest/jniLibs",
+                    "shadersDirectories": "/home/mary/Development/pods/app-core/src/androidTest/shaders",
+                    "baselineProfileDirectories": "/home/mary/Development/pods/app-core/src/androidTest/baseline",
+                    "keepRulesDirectories": "/home/mary/Development/pods/app-core/src/androidTest/keep",
+                    "aarKeepRulesDirectories": "/home/mary/Development/pods/app-core/src/androidTest/aar",
+                    "featurePluginsDirectories": []
+                }
+            },
+            "taskInfoList": [
+                {
+                    "task": "app-core:deviceTest",
+                    "outputFilePath": null,
+                    "isTest": true
+                }
+            ]
+        },
+        {
+            "type": "sourceSetModule",
+            "name": "app-core.main",
+            "root": "/home/mary/Development/pods/app-core",
+            "platformInfo": {
+                "type": "androidLibraryModuleInfo",
+                "namespace": "uk.co.mezpahlan.pods.core",
+                "sources": {
+                    "name": "main",
+                    "classesDirs": [
+                        "/home/mary/Development/pods/app-core/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes",
+                        "/home/mary/Development/pods/app-core/build/intermediates/built_in_kotlinc/release/compileReleaseKotlin/classes"
+                    ],
+                    "sdkTargetHashString": "android-37.0",
+                    "folder": "/home/mary/Development/pods/app-core/src/main",
+                    "manifestFile": "/home/mary/Development/pods/app-core/src/main/AndroidManifest.xml",
+                    "javaDirectories": "/home/mary/Development/pods/app-core/src/main/java",
+                    "kotlinDirectories": "/home/mary/Development/pods/app-core/src/main/kotlin",
+                    "resourcesDirectories": "/home/mary/Development/pods/app-core/src/main/resources",
+                    "resDirectories": "/home/mary/Development/pods/app-core/src/main/res",
+                    "assetsDirectories": "/home/mary/Development/pods/app-core/src/main/assets",
+                    "jniLibsDirectories": "/home/mary/Development/pods/app-core/src/main/jniLibs",
+                    "shadersDirectories": "/home/mary/Development/pods/app-core/src/main/shaders",
+                    "baselineProfileDirectories": "/home/mary/Development/pods/app-core/src/main/baseline",
+                    "keepRulesDirectories": "/home/mary/Development/pods/app-core/src/main/keep",
+                    "aarKeepRulesDirectories": "/home/mary/Development/pods/app-core/src/main/aar",
+                    "featurePluginsDirectories": []
+                }
+            },
+            "taskInfoList": [
+                {
+                    "task": "app-core:app-core.aar",
+                    "outputFilePath": "/home/mary/Development/pods/app-core/build/app-core.aar",
+                    "outputType": "aar"
+                }
+            ]
+        },
+        {
+            "type": "sourceSetModule",
+            "name": "app-core.test",
+            "root": "/home/mary/Development/pods/app-core",
+            "platformInfo": {
+                "type": "androidHostTestInfo",
+                "name": "test",
+                "sources": {
+                    "name": "test",
+                    "classesDirs": [],
+                    "sdkTargetHashString": "android-37.0",
+                    "folder": "/home/mary/Development/pods/app-core/src/test",
+                    "manifestFile": "/home/mary/Development/pods/app-core/src/test/AndroidManifest.xml",
+                    "javaDirectories": "/home/mary/Development/pods/app-core/src/test/java",
+                    "kotlinDirectories": "/home/mary/Development/pods/app-core/src/test/kotlin",
+                    "resourcesDirectories": "/home/mary/Development/pods/app-core/src/test/resources",
+                    "resDirectories": "/home/mary/Development/pods/app-core/src/test/res",
+                    "assetsDirectories": "/home/mary/Development/pods/app-core/src/test/assets",
+                    "jniLibsDirectories": "/home/mary/Development/pods/app-core/src/test/jniLibs",
+                    "shadersDirectories": "/home/mary/Development/pods/app-core/src/test/shaders",
+                    "baselineProfileDirectories": "/home/mary/Development/pods/app-core/src/test/baseline",
+                    "keepRulesDirectories": "/home/mary/Development/pods/app-core/src/test/keep",
+                    "aarKeepRulesDirectories": "/home/mary/Development/pods/app-core/src/test/aar",
+                    "featurePluginsDirectories": []
+                }
+            },
+            "taskInfoList": [
+                {
+                    "task": "app-core:hostTest",
+                    "outputFilePath": null,
+                    "isTest": true
+                }
+            ]
+        },
+        {
+            "type": "sourceSetModule",
+            "name": "app-core.testFixtures",
+            "root": "/home/mary/Development/pods/app-core",
+            "platformInfo": {
+                "type": "androidLibraryModuleInfo",
+                "namespace": "uk.co.mezpahlan.pods.core.testFixtures",
+                "sources": {
+                    "name": "testFixtures",
+                    "classesDirs": [],
+                    "sdkTargetHashString": "android-37.0",
+                    "folder": "/home/mary/Development/pods/app-core/src/testFixtures",
+                    "manifestFile": "/home/mary/Development/pods/app-core/src/testFixtures/AndroidManifest.xml",
+                    "javaDirectories": "/home/mary/Development/pods/app-core/src/testFixtures/java",
+                    "kotlinDirectories": "/home/mary/Development/pods/app-core/src/testFixtures/kotlin",
+                    "resourcesDirectories": "/home/mary/Development/pods/app-core/src/testFixtures/resources",
+                    "resDirectories": "/home/mary/Development/pods/app-core/src/testFixtures/res",
+                    "assetsDirectories": "/home/mary/Development/pods/app-core/src/testFixtures/assets",
+                    "jniLibsDirectories": "/home/mary/Development/pods/app-core/src/testFixtures/jniLibs",
+                    "shadersDirectories": "/home/mary/Development/pods/app-core/src/testFixtures/shaders",
+                    "baselineProfileDirectories": "/home/mary/Development/pods/app-core/src/testFixtures/baseline",
+                    "keepRulesDirectories": "/home/mary/Development/pods/app-core/src/testFixtures/keep",
+                    "aarKeepRulesDirectories": "/home/mary/Development/pods/app-core/src/testFixtures/aar",
+                    "featurePluginsDirectories": []
+                }
+            },
+            "taskInfoList": [
+                {
+                    "task": "app-core:testFixtures",
+                    "outputFilePath": null
+                }
+            ]
+        },
+        {
+            "type": "sourceSetModule",
+            "name": "app.main",
+            "root": "/home/mary/Development/pods/app",
+            "platformInfo": {
+                "type": "androidAppModuleInfo",
+                "applicationId": "uk.co.mezpahlan.pods",
+                "root": "/home/mary/Development/pods/app/src/main",
+                "debuggable": true,
+                "sdkTargetHashString": "android-37.0"
+            },
+            "taskInfoList": [
+                {
+                    "task": "app:app-debug.apk",
+                    "outputFilePath": "/home/mary/Development/pods/app/build/app-debug.apk",
+                    "outputType": "apk",
+                    "packagingProfile": "debug"
+                },
+                {
+                    "task": "app:app-release.apk",
+                    "outputFilePath": "/home/mary/Development/pods/app/build/app-release.apk",
+                    "outputType": "apk",
+                    "packagingProfile": "release"
+                },
+                {
+                    "task": "app:app-baselineProfiles.apk",
+                    "outputFilePath": "/home/mary/Development/pods/app/build/app-baselineProfiles.apk",
+                    "outputType": "apk",
+                    "packagingProfile": "baselineProfiles"
+                },
+                {
+                    "task": "app:app-debug.aab",
+                    "outputFilePath": "/home/mary/Development/pods/app/build/app-debug.aab",
+                    "outputType": "bundle",
+                    "packagingProfile": "debug"
+                },
+                {
+                    "task": "app:app-release.aab",
+                    "outputFilePath": "/home/mary/Development/pods/app/build/app-release.aab",
+                    "outputType": "bundle",
+                    "packagingProfile": "release"
+                },
+                {
+                    "task": "app:app-baselineProfiles.aab",
+                    "outputFilePath": "/home/mary/Development/pods/app/build/app-baselineProfiles.aab",
+                    "outputType": "bundle",
+                    "packagingProfile": "baselineProfiles"
+                }
+            ]
+        }
+    ],
+    "dependencyInfo": [
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity:1.8.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity-compose:1.8.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity-ktx:1.8.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.annotation:annotation-experimental:1.5.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.annotation:annotation-jvm:1.9.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.appcompat:appcompat:1.6.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.appcompat:appcompat-resources:1.6.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.arch.core:core-common:2.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.arch.core:core-runtime:2.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.autofill:autofill:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.collection:collection-jvm:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.collection:collection-ktx:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.animation:animation-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.animation:animation-core-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.foundation:foundation-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.foundation:foundation-layout-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-icons-core-android:1.7.8",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-icons-extended-android:1.7.8",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-ripple-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3:material3-adaptive-navigation-suite-android:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3:material3-android:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3.adaptive:adaptive-android:1.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-annotation-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-retain-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-saveable-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-geometry-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-graphics-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-test-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-test-junit4-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-test-manifest:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-text-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-data-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-preview-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-unit-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-util-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.concurrent:concurrent-futures:1.1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core:1.16.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core-ktx:1.16.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core-viewtree:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.cursoradapter:cursoradapter:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.customview:customview:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.customview:customview-poolingcontainer:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.documentfile:documentfile:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.drawerlayout:drawerlayout:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.dynamicanimation:dynamicanimation:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.emoji2:emoji2:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.emoji2:emoji2-views-helper:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.fragment:fragment:1.3.6",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.graphics:graphics-path:1.0.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.interpolator:interpolator:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.legacy:legacy-support-core-utils:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.lifecycle:lifecycle-common-java8:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.lifecycle:lifecycle-common-jvm:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-livedata-core:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-process:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.loader:loader:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.print:print:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.profileinstaller:profileinstaller:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-android:1.3.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-compose-android:1.3.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-ktx:1.3.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.startup:startup-runtime:1.1.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.test:annotation:1.0.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.test:core:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.test:monitor:1.6.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.test:runner:1.5.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.test.espresso:espresso-core:3.5.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.test.espresso:espresso-idling-resource:3.5.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.test.ext:junit:1.1.5",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.test.services:storage:1.4.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.tracing:tracing:1.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.transition:transition:1.6.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.vectordrawable:vectordrawable:1.1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.viewpager:viewpager:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.window:window:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.window:window-core-android:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "com.google.code.findbugs:jsr305:3.0.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "com.google.guava:listenablefuture:1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "com.squareup:javawriter:2.1.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "javax.inject:javax.inject:1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "junit:junit:4.13.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "org.hamcrest:hamcrest-core:1.3",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "org.hamcrest:hamcrest-integration:1.3",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "org.hamcrest:hamcrest-library:1.3",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains:annotations:23.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlin:kotlin-stdlib:2.3.20",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.9.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.7.3",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jspecify:jspecify:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.androidTest",
+            "toTarget": {
+                "type": "module",
+                "name": "app-core.main",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity:1.8.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity-compose:1.8.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity-ktx:1.8.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.annotation:annotation-experimental:1.5.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.annotation:annotation-jvm:1.9.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.appcompat:appcompat:1.6.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.appcompat:appcompat-resources:1.6.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.arch.core:core-common:2.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.arch.core:core-runtime:2.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.autofill:autofill:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.collection:collection-jvm:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.collection:collection-ktx:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.animation:animation-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.animation:animation-core-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.foundation:foundation-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.foundation:foundation-layout-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-icons-core-android:1.7.8",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-icons-extended-android:1.7.8",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-ripple-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3:material3-adaptive-navigation-suite-android:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3:material3-android:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3.adaptive:adaptive-android:1.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-annotation-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-retain-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-saveable-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-geometry-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-graphics-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-test-manifest:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-text-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-data-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-preview-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-unit-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-util-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.concurrent:concurrent-futures:1.1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core:1.16.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core-ktx:1.16.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core-viewtree:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.cursoradapter:cursoradapter:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.customview:customview:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.customview:customview-poolingcontainer:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.documentfile:documentfile:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.drawerlayout:drawerlayout:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.dynamicanimation:dynamicanimation:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.emoji2:emoji2:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.emoji2:emoji2-views-helper:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.fragment:fragment:1.3.6",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.graphics:graphics-path:1.0.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.interpolator:interpolator:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.legacy:legacy-support-core-utils:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.lifecycle:lifecycle-common-java8:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.lifecycle:lifecycle-common-jvm:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-livedata-core:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-process:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.loader:loader:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.print:print:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.profileinstaller:profileinstaller:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-android:1.3.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-compose-android:1.3.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-ktx:1.3.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.startup:startup-runtime:1.1.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.tracing:tracing:1.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.transition:transition:1.6.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.vectordrawable:vectordrawable:1.1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.viewpager:viewpager:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.window:window:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.window:window-core-android:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "com.google.guava:listenablefuture:1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains:annotations:23.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlin:kotlin-stdlib:2.3.20",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.7.3",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jspecify:jspecify:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity:1.8.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity-compose:1.8.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity-ktx:1.8.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.annotation:annotation-experimental:1.5.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.annotation:annotation-jvm:1.9.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.appcompat:appcompat:1.6.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.appcompat:appcompat-resources:1.6.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.arch.core:core-common:2.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.arch.core:core-runtime:2.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.autofill:autofill:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.collection:collection-jvm:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.collection:collection-ktx:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.animation:animation-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.animation:animation-core-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.foundation:foundation-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.foundation:foundation-layout-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-icons-core-android:1.7.8",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-icons-extended-android:1.7.8",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-ripple-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3:material3-adaptive-navigation-suite-android:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3:material3-android:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3.adaptive:adaptive-android:1.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-annotation-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-retain-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-saveable-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-geometry-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-graphics-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-test-manifest:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-text-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-data-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-preview-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-unit-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-util-android:1.10.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.concurrent:concurrent-futures:1.1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core:1.16.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core-ktx:1.16.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core-viewtree:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.cursoradapter:cursoradapter:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.customview:customview:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.customview:customview-poolingcontainer:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.documentfile:documentfile:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.drawerlayout:drawerlayout:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.dynamicanimation:dynamicanimation:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.emoji2:emoji2:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.emoji2:emoji2-views-helper:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.fragment:fragment:1.3.6",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.graphics:graphics-path:1.0.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.interpolator:interpolator:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.legacy:legacy-support-core-utils:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.lifecycle:lifecycle-common-java8:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.lifecycle:lifecycle-common-jvm:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-livedata-core:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-process:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.loader:loader:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.print:print:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.profileinstaller:profileinstaller:1.4.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-android:1.3.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-compose-android:1.3.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-ktx:1.3.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.startup:startup-runtime:1.1.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.tracing:tracing:1.2.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.transition:transition:1.6.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.vectordrawable:vectordrawable:1.1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.viewpager:viewpager:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.window:window:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.window:window-core-android:1.5.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "com.google.guava:listenablefuture:1.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "junit:junit:4.13.2",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "org.hamcrest:hamcrest-core:1.3",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains:annotations:23.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlin:kotlin-stdlib:2.3.20",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.7.3",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jspecify:jspecify:1.0.0",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.test",
+            "toTarget": {
+                "type": "module",
+                "name": "app-core.main",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app-core.testFixtures",
+            "toTarget": {
+                "type": "module",
+                "name": "app-core.main",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "module",
+                "name": "app-core.main",
+                "scope": "COMPILE"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity:1.8.2",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity-compose:1.8.2",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.activity:activity-ktx:1.8.2",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.annotation:annotation-experimental:1.5.1",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.annotation:annotation-jvm:1.9.1",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.appcompat:appcompat:1.6.1",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.appcompat:appcompat-resources:1.6.1",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.arch.core:core-common:2.2.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.arch.core:core-runtime:2.2.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.autofill:autofill:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.collection:collection-jvm:1.5.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.collection:collection-ktx:1.5.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.animation:animation-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.animation:animation-core-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.foundation:foundation-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.foundation:foundation-layout-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-icons-core-android:1.7.8",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-icons-extended-android:1.7.8",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material:material-ripple-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3:material3-adaptive-navigation-suite-android:1.4.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3:material3-android:1.4.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.material3.adaptive:adaptive-android:1.2.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-annotation-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-retain-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.runtime:runtime-saveable-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-geometry-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-graphics-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-test-manifest:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-text-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-data-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-tooling-preview-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-unit-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.compose.ui:ui-util-android:1.10.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.concurrent:concurrent-futures:1.1.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core:1.16.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core-ktx:1.16.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.core:core-viewtree:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.cursoradapter:cursoradapter:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.customview:customview:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.customview:customview-poolingcontainer:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.documentfile:documentfile:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.drawerlayout:drawerlayout:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.dynamicanimation:dynamicanimation:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.emoji2:emoji2:1.4.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.emoji2:emoji2-views-helper:1.4.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.fragment:fragment:1.3.6",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.graphics:graphics-path:1.0.1",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.interpolator:interpolator:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.legacy:legacy-support-core-utils:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.lifecycle:lifecycle-common-java8:2.9.4",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.lifecycle:lifecycle-common-jvm:2.9.4",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-livedata-core:2.9.4",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-process:2.9.4",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-android:2.9.4",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-android:2.9.4",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.loader:loader:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.print:print:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.profileinstaller:profileinstaller:1.4.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-android:1.3.2",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-compose-android:1.3.2",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.savedstate:savedstate-ktx:1.3.2",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.startup:startup-runtime:1.1.1",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.tracing:tracing:1.2.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.transition:transition:1.6.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.vectordrawable:vectordrawable:1.1.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.viewpager:viewpager:1.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.window:window:1.5.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "androidLibrary",
+                "name": "androidx.window:window-core-android:1.5.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "com.google.guava:listenablefuture:1.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains:annotations:23.0.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlin:kotlin-stdlib:2.3.20",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.7.3",
+                "scope": "RUNTIME"
+            }
+        },
+        {
+            "fromModuleName": "app.main",
+            "toTarget": {
+                "type": "library",
+                "name": "org.jspecify:jspecify:1.0.0",
+                "scope": "RUNTIME"
+            }
+        }
+    ],
+    "libraries": [
+        {
+            "name": "androidx.annotation:annotation-jvm:1.9.1",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/androidx/annotation/annotation-jvm/1.9.1/annotation-jvm-1.9.1.jar"
+        },
+        {
+            "name": "androidx.arch.core:core-common:2.2.0",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/androidx/arch/core/core-common/2.2.0/core-common-2.2.0.jar"
+        },
+        {
+            "name": "androidx.collection:collection-jvm:1.5.0",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/androidx/collection/collection-jvm/1.5.0/collection-jvm-1.5.0.jar"
+        },
+        {
+            "name": "androidx.collection:collection-ktx:1.5.0",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/androidx/collection/collection-ktx/1.5.0/collection-ktx-1.5.0.jar"
+        },
+        {
+            "name": "androidx.concurrent:concurrent-futures:1.1.0",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/androidx/concurrent/concurrent-futures/1.1.0/concurrent-futures-1.1.0.jar"
+        },
+        {
+            "name": "androidx.lifecycle:lifecycle-common-java8:2.9.4",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/androidx/lifecycle/lifecycle-common-java8/2.9.4/lifecycle-common-java8-2.9.4.jar"
+        },
+        {
+            "name": "androidx.lifecycle:lifecycle-common-jvm:2.9.4",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/androidx/lifecycle/lifecycle-common-jvm/2.9.4/lifecycle-common-jvm-2.9.4.jar"
+        },
+        {
+            "name": "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/androidx/resourceinspection/resourceinspection-annotation/1.0.1/resourceinspection-annotation-1.0.1.jar"
+        },
+        {
+            "name": "com.google.code.findbugs:jsr305:3.0.2",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+        },
+        {
+            "name": "com.google.guava:listenablefuture:1.0",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.jar"
+        },
+        {
+            "name": "com.squareup:javawriter:2.1.1",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar"
+        },
+        {
+            "name": "javax.inject:javax.inject:1",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/javax/inject/javax.inject/1/javax.inject-1.jar"
+        },
+        {
+            "name": "junit:junit:4.13.2",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/junit/junit/4.13.2/junit-4.13.2.jar"
+        },
+        {
+            "name": "org.hamcrest:hamcrest-core:1.3",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+        },
+        {
+            "name": "org.hamcrest:hamcrest-integration:1.3",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar"
+        },
+        {
+            "name": "org.hamcrest:hamcrest-library:1.3",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+        },
+        {
+            "name": "org.jetbrains.kotlin:kotlin-stdlib:2.3.20",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/org/jetbrains/kotlin/kotlin-stdlib/2.3.20/kotlin-stdlib-2.3.20.jar"
+        },
+        {
+            "name": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.9.0/kotlinx-coroutines-android-1.9.0.jar"
+        },
+        {
+            "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.jar"
+        },
+        {
+            "name": "org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.9.0",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/org/jetbrains/kotlinx/kotlinx-coroutines-test-jvm/1.9.0/kotlinx-coroutines-test-jvm-1.9.0.jar"
+        },
+        {
+            "name": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.7.3",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.3/kotlinx-serialization-core-jvm-1.7.3.jar"
+        },
+        {
+            "name": "org.jetbrains:annotations:23.0.0",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar"
+        },
+        {
+            "name": "org.jspecify:jspecify:1.0.0",
+            "jarPath": "/home/mary/.lightbuild/m2-cache/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar"
+        }
+    ],
+    "androidLibraries": [
+        {
+            "name": "androidx.activity:activity-compose:1.8.2",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/activity/activity-compose/1.8.2/activity-compose-1.8.2-exploded"
+        },
+        {
+            "name": "androidx.activity:activity-ktx:1.8.2",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/activity/activity-ktx/1.8.2/activity-ktx-1.8.2-exploded"
+        },
+        {
+            "name": "androidx.activity:activity:1.8.2",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/activity/activity/1.8.2/activity-1.8.2-exploded"
+        },
+        {
+            "name": "androidx.annotation:annotation-experimental:1.5.1",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/annotation/annotation-experimental/1.5.1/annotation-experimental-1.5.1-exploded"
+        },
+        {
+            "name": "androidx.appcompat:appcompat-resources:1.6.1",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/appcompat/appcompat-resources/1.6.1/appcompat-resources-1.6.1-exploded"
+        },
+        {
+            "name": "androidx.appcompat:appcompat:1.6.1",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/appcompat/appcompat/1.6.1/appcompat-1.6.1-exploded"
+        },
+        {
+            "name": "androidx.arch.core:core-runtime:2.2.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/arch/core/core-runtime/2.2.0/core-runtime-2.2.0-exploded"
+        },
+        {
+            "name": "androidx.autofill:autofill:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/autofill/autofill/1.0.0/autofill-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.compose.animation:animation-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/animation/animation-android/1.10.0/animation-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.animation:animation-core-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/animation/animation-core-android/1.10.0/animation-core-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.foundation:foundation-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/foundation/foundation-android/1.10.0/foundation-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.foundation:foundation-layout-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/foundation/foundation-layout-android/1.10.0/foundation-layout-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.material3.adaptive:adaptive-android:1.2.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/material3/adaptive/adaptive-android/1.2.0/adaptive-android-1.2.0-exploded"
+        },
+        {
+            "name": "androidx.compose.material3:material3-adaptive-navigation-suite-android:1.4.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/material3/material3-adaptive-navigation-suite-android/1.4.0/material3-adaptive-navigation-suite-android-1.4.0-exploded"
+        },
+        {
+            "name": "androidx.compose.material3:material3-android:1.4.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/material3/material3-android/1.4.0/material3-android-1.4.0-exploded"
+        },
+        {
+            "name": "androidx.compose.material:material-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/material/material-android/1.10.0/material-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.material:material-icons-core-android:1.7.8",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/material/material-icons-core-android/1.7.8/material-icons-core-android-1.7.8-exploded"
+        },
+        {
+            "name": "androidx.compose.material:material-icons-extended-android:1.7.8",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/material/material-icons-extended-android/1.7.8/material-icons-extended-android-1.7.8-exploded"
+        },
+        {
+            "name": "androidx.compose.material:material-ripple-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/material/material-ripple-android/1.10.0/material-ripple-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.runtime:runtime-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/runtime/runtime-android/1.10.0/runtime-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.runtime:runtime-annotation-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/runtime/runtime-annotation-android/1.10.0/runtime-annotation-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.runtime:runtime-retain-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/runtime/runtime-retain-android/1.10.0/runtime-retain-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.runtime:runtime-saveable-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/runtime/runtime-saveable-android/1.10.0/runtime-saveable-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-android/1.10.0/ui-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-geometry-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-geometry-android/1.10.0/ui-geometry-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-graphics-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-graphics-android/1.10.0/ui-graphics-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-test-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-test-android/1.10.0/ui-test-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-test-junit4-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-test-junit4-android/1.10.0/ui-test-junit4-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-test-manifest:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-test-manifest/1.10.0/ui-test-manifest-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-text-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-text-android/1.10.0/ui-text-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-tooling-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-tooling-android/1.10.0/ui-tooling-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-tooling-data-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-tooling-data-android/1.10.0/ui-tooling-data-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-tooling-preview-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-tooling-preview-android/1.10.0/ui-tooling-preview-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-unit-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-unit-android/1.10.0/ui-unit-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.compose.ui:ui-util-android:1.10.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/compose/ui/ui-util-android/1.10.0/ui-util-android-1.10.0-exploded"
+        },
+        {
+            "name": "androidx.core:core-ktx:1.16.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/core/core-ktx/1.16.0/core-ktx-1.16.0-exploded"
+        },
+        {
+            "name": "androidx.core:core-viewtree:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/core/core-viewtree/1.0.0/core-viewtree-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.core:core:1.16.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/core/core/1.16.0/core-1.16.0-exploded"
+        },
+        {
+            "name": "androidx.cursoradapter:cursoradapter:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/cursoradapter/cursoradapter/1.0.0/cursoradapter-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.customview:customview-poolingcontainer:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/customview/customview-poolingcontainer/1.0.0/customview-poolingcontainer-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.customview:customview:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/customview/customview/1.0.0/customview-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.documentfile:documentfile:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/documentfile/documentfile/1.0.0/documentfile-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.drawerlayout:drawerlayout:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/drawerlayout/drawerlayout/1.0.0/drawerlayout-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.dynamicanimation:dynamicanimation:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/dynamicanimation/dynamicanimation/1.0.0/dynamicanimation-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.emoji2:emoji2-views-helper:1.4.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/emoji2/emoji2-views-helper/1.4.0/emoji2-views-helper-1.4.0-exploded"
+        },
+        {
+            "name": "androidx.emoji2:emoji2:1.4.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/emoji2/emoji2/1.4.0/emoji2-1.4.0-exploded"
+        },
+        {
+            "name": "androidx.fragment:fragment:1.3.6",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/fragment/fragment/1.3.6/fragment-1.3.6-exploded"
+        },
+        {
+            "name": "androidx.graphics:graphics-path:1.0.1",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/graphics/graphics-path/1.0.1/graphics-path-1.0.1-exploded"
+        },
+        {
+            "name": "androidx.interpolator:interpolator:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.legacy:legacy-support-core-utils:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/legacy/legacy-support-core-utils/1.0.0/legacy-support-core-utils-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.lifecycle:lifecycle-livedata-core:2.9.4",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/lifecycle/lifecycle-livedata-core/2.9.4/lifecycle-livedata-core-2.9.4-exploded"
+        },
+        {
+            "name": "androidx.lifecycle:lifecycle-process:2.9.4",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/lifecycle/lifecycle-process/2.9.4/lifecycle-process-2.9.4-exploded"
+        },
+        {
+            "name": "androidx.lifecycle:lifecycle-runtime-android:2.9.4",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/lifecycle/lifecycle-runtime-android/2.9.4/lifecycle-runtime-android-2.9.4-exploded"
+        },
+        {
+            "name": "androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/lifecycle/lifecycle-runtime-compose-android/2.9.4/lifecycle-runtime-compose-android-2.9.4-exploded"
+        },
+        {
+            "name": "androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/lifecycle/lifecycle-runtime-ktx-android/2.9.4/lifecycle-runtime-ktx-android-2.9.4-exploded"
+        },
+        {
+            "name": "androidx.lifecycle:lifecycle-viewmodel-android:2.9.4",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/lifecycle/lifecycle-viewmodel-android/2.9.4/lifecycle-viewmodel-android-2.9.4-exploded"
+        },
+        {
+            "name": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/lifecycle/lifecycle-viewmodel-ktx/2.9.4/lifecycle-viewmodel-ktx-2.9.4-exploded"
+        },
+        {
+            "name": "androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/lifecycle/lifecycle-viewmodel-savedstate-android/2.9.4/lifecycle-viewmodel-savedstate-android-2.9.4-exploded"
+        },
+        {
+            "name": "androidx.loader:loader:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/loader/loader/1.0.0/loader-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/localbroadcastmanager/localbroadcastmanager/1.0.0/localbroadcastmanager-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.print:print:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/print/print/1.0.0/print-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.profileinstaller:profileinstaller:1.4.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/profileinstaller/profileinstaller/1.4.0/profileinstaller-1.4.0-exploded"
+        },
+        {
+            "name": "androidx.savedstate:savedstate-android:1.3.2",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/savedstate/savedstate-android/1.3.2/savedstate-android-1.3.2-exploded"
+        },
+        {
+            "name": "androidx.savedstate:savedstate-compose-android:1.3.2",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/savedstate/savedstate-compose-android/1.3.2/savedstate-compose-android-1.3.2-exploded"
+        },
+        {
+            "name": "androidx.savedstate:savedstate-ktx:1.3.2",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/savedstate/savedstate-ktx/1.3.2/savedstate-ktx-1.3.2-exploded"
+        },
+        {
+            "name": "androidx.startup:startup-runtime:1.1.1",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/startup/startup-runtime/1.1.1/startup-runtime-1.1.1-exploded"
+        },
+        {
+            "name": "androidx.test.espresso:espresso-core:3.5.1",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/test/espresso/espresso-core/3.5.1/espresso-core-3.5.1-exploded"
+        },
+        {
+            "name": "androidx.test.espresso:espresso-idling-resource:3.5.1",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/test/espresso/espresso-idling-resource/3.5.1/espresso-idling-resource-3.5.1-exploded"
+        },
+        {
+            "name": "androidx.test.ext:junit:1.1.5",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/test/ext/junit/1.1.5/junit-1.1.5-exploded"
+        },
+        {
+            "name": "androidx.test.services:storage:1.4.2",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/test/services/storage/1.4.2/storage-1.4.2-exploded"
+        },
+        {
+            "name": "androidx.test:annotation:1.0.1",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/test/annotation/1.0.1/annotation-1.0.1-exploded"
+        },
+        {
+            "name": "androidx.test:core:1.5.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/test/core/1.5.0/core-1.5.0-exploded"
+        },
+        {
+            "name": "androidx.test:monitor:1.6.1",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/test/monitor/1.6.1/monitor-1.6.1-exploded"
+        },
+        {
+            "name": "androidx.test:runner:1.5.2",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/test/runner/1.5.2/runner-1.5.2-exploded"
+        },
+        {
+            "name": "androidx.tracing:tracing:1.2.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/tracing/tracing/1.2.0/tracing-1.2.0-exploded"
+        },
+        {
+            "name": "androidx.transition:transition:1.6.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/transition/transition/1.6.0/transition-1.6.0-exploded"
+        },
+        {
+            "name": "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/vectordrawable/vectordrawable-animated/1.1.0/vectordrawable-animated-1.1.0-exploded"
+        },
+        {
+            "name": "androidx.vectordrawable:vectordrawable:1.1.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/vectordrawable/vectordrawable/1.1.0/vectordrawable-1.1.0-exploded"
+        },
+        {
+            "name": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1-exploded"
+        },
+        {
+            "name": "androidx.viewpager:viewpager:1.0.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/viewpager/viewpager/1.0.0/viewpager-1.0.0-exploded"
+        },
+        {
+            "name": "androidx.window:window-core-android:1.5.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/window/window-core-android/1.5.0/window-core-android-1.5.0-exploded"
+        },
+        {
+            "name": "androidx.window:window:1.5.0",
+            "folder": "/home/mary/.lightbuild/m2-cache/androidx/window/window/1.5.0/window-1.5.0-exploded"
+        }
+    ],
+    "sdkInfo": {
+        "homePath": "/home/mary/Android/Sdk"
+    },
+    "kotlinInfo": {
+        "languageLevel": "2.3",
+        "apiLevel": "2.3",
+        "stdlibLibraryName": "org.jetbrains.kotlin:kotlin-stdlib"
+    },
+    "lightbuildInfo": {
+        "version": "0.0.30"
+    }
+}

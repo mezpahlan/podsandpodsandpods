@@ -1,0 +1,42 @@
+platform: android
+type: library
+
+android:
+  namespace: "uk.co.mezpahlan.pods.core"
+  compileSdk:
+    version:
+      release:
+        apiLevel: 37
+  minSdk:
+    version:
+      release:
+        apiLevel: 24
+  dependencies:
+    maven:
+      - androidx.core:core-ktx:1.10.1
+      - androidx.appcompat:appcompat:1.6.1
+      - androidx.lifecycle:lifecycle-runtime-ktx:2.6.1
+      - androidx.activity:activity-compose:1.8.0
+      - androidx.compose:compose-bom:2025.12.00
+      - androidx.compose.ui:ui
+      - androidx.compose.ui:ui-graphics
+      - androidx.compose.ui:ui-tooling
+      - androidx.compose.ui:ui-tooling-preview
+      - androidx.compose.ui:ui-test-manifest
+      - androidx.compose.material3:material3
+      - androidx.compose.material3:material3-adaptive-navigation-suite
+      - androidx.compose.material:material-icons-extended
+
+  tests:
+    test:
+      dependencies:
+        maven:
+          - junit:junit:4.13.2
+    androidTest:
+      runner: androidx.test.runner.AndroidJUnitRunner
+      dependencies:
+        maven:
+          - androidx.test.ext:junit:1.1.5
+          - androidx.test.espresso:espresso-core:3.5.1
+          - androidx.compose:compose-bom:2025.12.00
+          - androidx.compose.ui:ui-test-junit4
